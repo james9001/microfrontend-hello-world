@@ -19,7 +19,8 @@ const devConfig = {
             name: 'container',
             remotes: {
                 helloReact: 'helloReact@http://localhost:8081/remoteEntry.js',
-                helloVue: 'helloVue@http://localhost:8082/remoteEntry.js'
+                helloVue: 'helloVue@http://localhost:8082/remoteEntry.js',
+                helloAngularIonic: 'helloAngularIonic@http://localhost:8083/remoteEntry.js'
             },
             shared: packageJson.dependencies
         })
